@@ -6,6 +6,13 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8BE6276B3077ACA3005EE2C2 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE627673077ACA3005EE2C2 /* Course+CoreDataClass.swift */; };
+		8BE6276C3077ACA3005EE2C2 /* Lesson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE627693077ACA3005EE2C2 /* Lesson+CoreDataClass.swift */; };
+		8BE6276D3077ACA3005EE2C2 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE627683077ACA3005EE2C2 /* Course+CoreDataProperties.swift */; };
+		8BE6276E3077ACA3005EE2C2 /* Lesson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6276A3077ACA3005EE2C2 /* Lesson+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8BE6273E3077A185005EE2C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		8BE6272B3077A184005EE2C2 /* LearningDashboardProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningDashboardProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE6273D3077A185005EE2C2 /* LearningDashboardProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningDashboardProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE627473077A185005EE2C2 /* LearningDashboardProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningDashboardProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE627673077ACA3005EE2C2 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8BE627683077ACA3005EE2C2 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8BE627693077ACA3005EE2C2 /* Lesson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8BE6276A3077ACA3005EE2C2 /* Lesson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +80,10 @@
 		8BE627223077A184005EE2C2 = {
 			isa = PBXGroup;
 			children = (
+				8BE627673077ACA3005EE2C2 /* Course+CoreDataClass.swift */,
+				8BE627683077ACA3005EE2C2 /* Course+CoreDataProperties.swift */,
+				8BE627693077ACA3005EE2C2 /* Lesson+CoreDataClass.swift */,
+				8BE6276A3077ACA3005EE2C2 /* Lesson+CoreDataProperties.swift */,
 				8BE6272D3077A184005EE2C2 /* LearningDashboardProject */,
 				8BE627403077A185005EE2C2 /* LearningDashboardProjectTests */,
 				8BE6274A3077A185005EE2C2 /* LearningDashboardProjectUITests */,
@@ -215,6 +230,10 @@
 		8BE627273077A184005EE2C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				8BE6276B3077ACA3005EE2C2 /* Course+CoreDataClass.swift in Sources */,
+				8BE6276C3077ACA3005EE2C2 /* Lesson+CoreDataClass.swift in Sources */,
+				8BE6276D3077ACA3005EE2C2 /* Course+CoreDataProperties.swift in Sources */,
+				8BE6276E3077ACA3005EE2C2 /* Lesson+CoreDataProperties.swift in Sources */,
 			);
 		};
 		8BE627393077A185005EE2C2 /* Sources */ = {
