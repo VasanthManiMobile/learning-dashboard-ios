@@ -1,8 +1,19 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State private var isLoggedIn = false
+
     var body: some View {
-        Text("Learning Dashboard")
+        Group {
+            if isLoggedIn {
+                DashboardUIView()
+            } else {
+                LoginUIView {
+                    isLoggedIn = true
+                }
+            }
+        }
     }
 }
 

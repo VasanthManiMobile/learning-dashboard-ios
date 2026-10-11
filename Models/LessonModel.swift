@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct LessonModel: Identifiable {
+    let id: Int64
+    let courseId: Int64
+    let title: String
+    var isCompleted: Bool
+}
+

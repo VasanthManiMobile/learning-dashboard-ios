@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct CourseModel: Identifiable {
+    let id: Int64
+    let title: String
+    let instructor: String
+    var progress: Double
+    let lessonsCount: Int64
+}
+
